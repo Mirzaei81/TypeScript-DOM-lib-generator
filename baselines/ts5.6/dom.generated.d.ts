@@ -34955,6 +34955,7 @@ declare var WebGL2RenderingContext: {
     readonly TEXTURE_MIN_FILTER: 0x2801;
     readonly TEXTURE_WRAP_S: 0x2802;
     readonly TEXTURE_WRAP_T: 0x2803;
+    readonly TEXTURE_WRAP_R: 0x8072;
     readonly TEXTURE_2D: 0x0DE1;
     readonly TEXTURE: 0x1702;
     readonly TEXTURE_CUBE_MAP: 0x8513;
@@ -35882,6 +35883,7 @@ declare var WebGLRenderingContext: {
     readonly TEXTURE_MIN_FILTER: 0x2801;
     readonly TEXTURE_WRAP_S: 0x2802;
     readonly TEXTURE_WRAP_T: 0x2803;
+    readonly TEXTURE_WRAP_R: 0x8072;
     readonly TEXTURE_2D: 0x0DE1;
     readonly TEXTURE: 0x1702;
     readonly TEXTURE_CUBE_MAP: 0x8513;
@@ -36462,6 +36464,7 @@ interface WebGLRenderingContextBase {
     readonly TEXTURE_MIN_FILTER: 0x2801;
     readonly TEXTURE_WRAP_S: 0x2802;
     readonly TEXTURE_WRAP_T: 0x2803;
+    readonly TEXTURE_WRAP_R: 0x8072;
     readonly TEXTURE_2D: 0x0DE1;
     readonly TEXTURE: 0x1702;
     readonly TEXTURE_CUBE_MAP: 0x8513;
